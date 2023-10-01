@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  color: #eee;
+  background-image: url(assets/img/16.jpg);
+  /* background-color: #60b347; */
+  background-size: 1440px 750px;
+}
+
+.container {
+  width: 100vh;
+  height: 95vh;
+}
+.h1-container {
+  text-align: center;
+  font-size: 64px;
+  position: absolute;
+  top: 35%;
+  left: 30%;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.choose {
+  text-align: center;
+  font-size: 32px;
+  position: absolute;
+  top: 50%;
+  left: 34%;
+}
+
+.game-container {
+  list-style: none;
+  position: absolute;
+  top: 65%;
+  left: 21%;
+  padding: 50px;
+}
+
+.GMN-cont {
+  color: #e5c3a6;
+  text-decoration: none;
+  border: none;
+  margin: 50px;
+  padding: 8px 30px;
+  background-color: #2e4374;
+}
+
+.GMN-cont:hover {
+  color: white;
+  background-color: #141e46;
+}
+
+.Modal {
+  color: #e5c3a6;
+  text-decoration: none;
+  border: none;
+  margin: 50px;
+  padding: 8px 30px;
+  background-color: #2e4374;
+}
+
+.Modal:hover {
+  color: white;
+  background-color: #141e46;
+}
+
+.RF-cont {
+  color: #e5c3a6;
+  text-decoration: none;
+  border: none;
+  margin: 50px;
+  padding: 8px 30px;
+  background-color: #2e4374;
+}
+
+.RF-cont:hover {
+  color: white;
+  background-color: #141e46;
+}
+
+.copyright {
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  font-size: 12px;
+  padding: 15px;
+}
